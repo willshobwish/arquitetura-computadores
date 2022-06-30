@@ -409,10 +409,10 @@ VECTOR("D:/Sistema/Desktop/Unesp/GitHub/ArquiteturaDeComputadores/FCTArc1/ALU2b.
 VECTOR("D:/Sistema/Desktop/Unesp/GitHub/ArquiteturaDeComputadores/FCTArc1/FCTArc1.vwf")
 {
 	ZOOM{
-		ZBEGIN = 0;
-		ZEND = 197504;
-		NUMERATOR = 1141;
-		DENOMINATOR = 197504;
+		ZBEGIN = 28994;
+		ZEND = 76725;
+		NUMERATOR = 1103;
+		DENOMINATOR = 47731;
 		TOP_INDEX = 0;
 	}
 	CLOCK{
@@ -424,7 +424,7 @@ VECTOR("D:/Sistema/Desktop/Unesp/GitHub/ArquiteturaDeComputadores/FCTArc1/FCTArc
 		INTERVAL_TYPE = HALF_GRID;
 	}
 	LINE{
-		SIGNAL = "clear";
+		SIGNAL = "ain0";
 		INDEX = 0;
 		FORMAT = E;
 		SCALE = 1;
@@ -432,7 +432,7 @@ VECTOR("D:/Sistema/Desktop/Unesp/GitHub/ArquiteturaDeComputadores/FCTArc1/FCTArc
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "trigger";
+		SIGNAL = "ain1";
 		INDEX = 1;
 		FORMAT = E;
 		SCALE = 1;
@@ -440,7 +440,7 @@ VECTOR("D:/Sistema/Desktop/Unesp/GitHub/ArquiteturaDeComputadores/FCTArc1/FCTArc
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "preset";
+		SIGNAL = "bin0";
 		INDEX = 2;
 		FORMAT = E;
 		SCALE = 1;
@@ -448,7 +448,7 @@ VECTOR("D:/Sistema/Desktop/Unesp/GitHub/ArquiteturaDeComputadores/FCTArc1/FCTArc
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "ain1";
+		SIGNAL = "bin1";
 		INDEX = 3;
 		FORMAT = E;
 		SCALE = 1;
@@ -456,7 +456,7 @@ VECTOR("D:/Sistema/Desktop/Unesp/GitHub/ArquiteturaDeComputadores/FCTArc1/FCTArc
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "ain0";
+		SIGNAL = "clear_a";
 		INDEX = 4;
 		FORMAT = E;
 		SCALE = 1;
@@ -464,7 +464,7 @@ VECTOR("D:/Sistema/Desktop/Unesp/GitHub/ArquiteturaDeComputadores/FCTArc1/FCTArc
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "bin1";
+		SIGNAL = "trigger_a";
 		INDEX = 5;
 		FORMAT = E;
 		SCALE = 1;
@@ -472,7 +472,7 @@ VECTOR("D:/Sistema/Desktop/Unesp/GitHub/ArquiteturaDeComputadores/FCTArc1/FCTArc
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "bin0";
+		SIGNAL = "preset_a";
 		INDEX = 6;
 		FORMAT = E;
 		SCALE = 1;
@@ -480,7 +480,7 @@ VECTOR("D:/Sistema/Desktop/Unesp/GitHub/ArquiteturaDeComputadores/FCTArc1/FCTArc
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "out_1";
+		SIGNAL = "clear_b";
 		INDEX = 7;
 		FORMAT = E;
 		SCALE = 1;
@@ -488,8 +488,56 @@ VECTOR("D:/Sistema/Desktop/Unesp/GitHub/ArquiteturaDeComputadores/FCTArc1/FCTArc
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "out_0";
+		SIGNAL = "preset_b";
 		INDEX = 8;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "trigger_b";
+		INDEX = 9;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "clear_acc";
+		INDEX = 10;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "trigger_acc";
+		INDEX = 11;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "preset_acc";
+		INDEX = 12;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "out_0";
+		INDEX = 13;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "out_1";
+		INDEX = 14;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -501,10 +549,10 @@ VECTOR("D:/Sistema/Desktop/Unesp/GitHub/ArquiteturaDeComputadores/FCTArc1/db/FCT
 {
 	ZOOM{
 		ZBEGIN = 0;
-		ZEND = 1000000;
+		ZEND = 249996;
 		NUMERATOR = 959;
-		DENOMINATOR = 1000000;
-		TOP_INDEX = 0;
+		DENOMINATOR = 249996;
+		TOP_INDEX = 2;
 	}
 	CLOCK{
 		PERIOD = 10000;
@@ -515,7 +563,7 @@ VECTOR("D:/Sistema/Desktop/Unesp/GitHub/ArquiteturaDeComputadores/FCTArc1/db/FCT
 		INTERVAL_TYPE = HALF_GRID;
 	}
 	LINE{
-		SIGNAL = "clear";
+		SIGNAL = "ain0";
 		INDEX = 0;
 		FORMAT = E;
 		SCALE = 1;
@@ -523,7 +571,7 @@ VECTOR("D:/Sistema/Desktop/Unesp/GitHub/ArquiteturaDeComputadores/FCTArc1/db/FCT
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "trigger";
+		SIGNAL = "ain1";
 		INDEX = 1;
 		FORMAT = E;
 		SCALE = 1;
@@ -531,7 +579,7 @@ VECTOR("D:/Sistema/Desktop/Unesp/GitHub/ArquiteturaDeComputadores/FCTArc1/db/FCT
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "preset";
+		SIGNAL = "bin0";
 		INDEX = 2;
 		FORMAT = E;
 		SCALE = 1;
@@ -539,7 +587,7 @@ VECTOR("D:/Sistema/Desktop/Unesp/GitHub/ArquiteturaDeComputadores/FCTArc1/db/FCT
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "ain1";
+		SIGNAL = "bin1";
 		INDEX = 3;
 		FORMAT = E;
 		SCALE = 1;
@@ -547,7 +595,7 @@ VECTOR("D:/Sistema/Desktop/Unesp/GitHub/ArquiteturaDeComputadores/FCTArc1/db/FCT
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "ain0";
+		SIGNAL = "clear_a";
 		INDEX = 4;
 		FORMAT = E;
 		SCALE = 1;
@@ -555,7 +603,7 @@ VECTOR("D:/Sistema/Desktop/Unesp/GitHub/ArquiteturaDeComputadores/FCTArc1/db/FCT
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "bin1";
+		SIGNAL = "trigger_a";
 		INDEX = 5;
 		FORMAT = E;
 		SCALE = 1;
@@ -563,7 +611,7 @@ VECTOR("D:/Sistema/Desktop/Unesp/GitHub/ArquiteturaDeComputadores/FCTArc1/db/FCT
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "bin0";
+		SIGNAL = "preset_a";
 		INDEX = 6;
 		FORMAT = E;
 		SCALE = 1;
@@ -571,7 +619,7 @@ VECTOR("D:/Sistema/Desktop/Unesp/GitHub/ArquiteturaDeComputadores/FCTArc1/db/FCT
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "out_1";
+		SIGNAL = "clear_b";
 		INDEX = 7;
 		FORMAT = E;
 		SCALE = 1;
@@ -579,8 +627,56 @@ VECTOR("D:/Sistema/Desktop/Unesp/GitHub/ArquiteturaDeComputadores/FCTArc1/db/FCT
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "out_0";
+		SIGNAL = "preset_b";
 		INDEX = 8;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "trigger_b";
+		INDEX = 9;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "clear_acc";
+		INDEX = 10;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "trigger_acc";
+		INDEX = 11;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "preset_acc";
+		INDEX = 12;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "out_0";
+		INDEX = 13;
+		FORMAT = E;
+		SCALE = 1;
+		VISIBLE = Y;
+		FLAG = N;
+	}
+	LINE{
+		SIGNAL = "out_1";
+		INDEX = 14;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;

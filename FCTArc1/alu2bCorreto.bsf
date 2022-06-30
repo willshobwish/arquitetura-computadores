@@ -54,15 +54,15 @@ applicable agreement for further details.
 	(port
 		(pt 96 32)
 		(output)
-		(text "out_0" (rect 0 0 31 14)(font "Arial" (font_size 8)))
-		(text "out_0" (rect 44 27 75 41)(font "Arial" (font_size 8)))
+		(text "out_1" (rect 0 0 31 14)(font "Arial" (font_size 8)))
+		(text "out_1" (rect 44 27 75 41)(font "Arial" (font_size 8)))
 		(line (pt 96 32)(pt 80 32)(line_width 1))
 	)
 	(port
 		(pt 96 48)
 		(output)
-		(text "out_1" (rect 0 0 31 14)(font "Arial" (font_size 8)))
-		(text "out_1" (rect 44 43 75 57)(font "Arial" (font_size 8)))
+		(text "out_0" (rect 0 0 31 14)(font "Arial" (font_size 8)))
+		(text "out_0" (rect 44 43 75 57)(font "Arial" (font_size 8)))
 		(line (pt 96 48)(pt 80 48)(line_width 1))
 	)
 	(drawing

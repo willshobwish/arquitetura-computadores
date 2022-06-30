@@ -86,7 +86,7 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 440 104 616 120)
+	(rect 440 120 616 136)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "out_0" (rect 90 0 117 12)(font "Arial" ))
 	(pt 0 8)
@@ -102,7 +102,7 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 440 120 616 136)
+	(rect 440 104 616 120)
 	(text "OUTPUT" (rect 1 0 39 10)(font "Arial" (font_size 6)))
 	(text "out_1" (rect 90 0 117 12)(font "Arial" ))
 	(pt 0 8)

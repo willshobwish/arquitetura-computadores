@@ -870,7 +870,7 @@ VECTOR("C:/Users/Willian/Desktop/Github/ArquiteturaDeComputadores/FCTArc1/db/FCT
 		ZEND = 545045;
 		NUMERATOR = 847;
 		DENOMINATOR = 545045;
-		TOP_INDEX = 0;
+		TOP_INDEX = 6;
 	}
 	CLOCK{
 		PERIOD = 10000;

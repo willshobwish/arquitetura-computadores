@@ -1,11 +1,11 @@
 library ieee;
 use ieee.std_logic_1164.all;
-=entity rom2b is 
-=port(a:in std_logic_vector(1 downto 0);
+entity rom2b is 
+port(a:in std_logic_vector(1 downto 0);
 x:out std_logic_vector(4 downto 0));
 end rom2b;
-=architecture rom2bBehave of rom2b is
-=begin
+architecture rom2bBehave of rom2b is
+begin
 x<= --COOOO
 --opppp
 --deeee
@@ -14,8 +14,10 @@ x<= --COOOO
 --snnnn
 --t0000
 --r1122
+--Conteudo que esta em verde eh somente comentario
 "10110"when(a="00")else
 "10101"when(a="01")else
 "10001"when(a="10")else
 "10010"when(a="11");
+--Instrucoes e enderecamento
 end rom2bBehave;

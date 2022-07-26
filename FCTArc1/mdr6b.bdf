@@ -262,7 +262,7 @@ applicable agreement for further details.
 )
 (symbol
 	(rect 528 264 648 392)
-	(text "RegistradorCircuito" (rect 5 0 113 14)(font "Arial" (font_size 8)))
+	(text "reg2b" (rect 5 0 38 14)(font "Arial" (font_size 8)))
 	(text "inst" (rect 8 112 25 124)(font "Arial" ))
 	(port
 		(pt 0 32)
@@ -318,9 +318,9 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 528 448 648 576)
-	(text "RegistradorCircuito" (rect 5 0 113 14)(font "Arial" (font_size 8)))
-	(text "inst4" (rect 8 112 31 124)(font "Arial" ))
+	(rect 528 632 648 760)
+	(text "reg2b" (rect 5 0 38 14)(font "Arial" (font_size 8)))
+	(text "inst1" (rect 8 112 31 124)(font "Arial" ))
 	(port
 		(pt 0 32)
 		(input)
@@ -375,9 +375,9 @@ applicable agreement for further details.
 	)
 )
 (symbol
-	(rect 528 632 648 760)
-	(text "RegistradorCircuito" (rect 5 0 113 14)(font "Arial" (font_size 8)))
-	(text "inst8" (rect 8 112 31 124)(font "Arial" ))
+	(rect 528 448 648 576)
+	(text "reg2b" (rect 5 0 38 14)(font "Arial" (font_size 8)))
+	(text "inst2" (rect 8 112 31 124)(font "Arial" ))
 	(port
 		(pt 0 32)
 		(input)

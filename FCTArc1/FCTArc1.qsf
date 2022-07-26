@@ -55,4 +55,3 @@ set_global_assignment -name TIMEQUEST_MULTICORNER_ANALYSIS ON
 set_global_assignment -name TIMEQUEST_DO_CCPP_REMOVAL ON
 set_global_assignment -name BDF_FILE FCTArc1.bdf
 set_global_assignment -name VECTOR_WAVEFORM_FILE FCTArc1.vwf
-set_global_assignment -name BDF_FILE b2b.bdf

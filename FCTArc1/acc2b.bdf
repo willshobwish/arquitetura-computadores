@@ -134,7 +134,7 @@ applicable agreement for further details.
 )
 (symbol
 	(rect 392 200 512 328)
-	(text "RegistradorCircuito" (rect 5 0 113 14)(font "Arial" (font_size 8)))
+	(text "reg2b" (rect 5 0 38 14)(font "Arial" (font_size 8)))
 	(text "inst" (rect 8 112 25 124)(font "Arial" ))
 	(port
 		(pt 0 32)

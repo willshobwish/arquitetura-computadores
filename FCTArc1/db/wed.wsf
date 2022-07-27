@@ -1083,11 +1083,11 @@ VECTOR("E:/Sistema/Desktop/Github/ArquiteturaDeComputadores/FCTArc1/db/FCTArc1.s
 VECTOR("C:/Users/Willian/Desktop/Github/ArquiteturaDeComputadores/FCTArc1/FCTArc1.vwf")
 {
 	ZOOM{
-		ZBEGIN = 98540;
-		ZEND = 598540;
+		ZBEGIN = 0;
+		ZEND = 508863;
 		NUMERATOR = 959;
 		DENOMINATOR = 500000;
-		TOP_INDEX = 4;
+		TOP_INDEX = 1;
 	}
 	CLOCK{
 		PERIOD = 10000;
@@ -1138,7 +1138,7 @@ VECTOR("C:/Users/Willian/Desktop/Github/ArquiteturaDeComputadores/FCTArc1/FCTArc
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "clear_mar";
+		SIGNAL = "clear_ic";
 		INDEX = 5;
 		FORMAT = E;
 		SCALE = 1;
@@ -1146,7 +1146,7 @@ VECTOR("C:/Users/Willian/Desktop/Github/ArquiteturaDeComputadores/FCTArc1/FCTArc
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "clear_mdr";
+		SIGNAL = "clear_mar";
 		INDEX = 6;
 		FORMAT = E;
 		SCALE = 1;
@@ -1154,7 +1154,7 @@ VECTOR("C:/Users/Willian/Desktop/Github/ArquiteturaDeComputadores/FCTArc1/FCTArc
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "clear_a";
+		SIGNAL = "clear_mdr";
 		INDEX = 7;
 		FORMAT = E;
 		SCALE = 1;
@@ -1162,7 +1162,7 @@ VECTOR("C:/Users/Willian/Desktop/Github/ArquiteturaDeComputadores/FCTArc1/FCTArc
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "clear_b";
+		SIGNAL = "clear_a";
 		INDEX = 8;
 		FORMAT = E;
 		SCALE = 1;
@@ -1170,7 +1170,7 @@ VECTOR("C:/Users/Willian/Desktop/Github/ArquiteturaDeComputadores/FCTArc1/FCTArc
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "clear_acc";
+		SIGNAL = "clear_b";
 		INDEX = 9;
 		FORMAT = E;
 		SCALE = 1;
@@ -1178,7 +1178,7 @@ VECTOR("C:/Users/Willian/Desktop/Github/ArquiteturaDeComputadores/FCTArc1/FCTArc
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "address_1";
+		SIGNAL = "clear_acc";
 		INDEX = 10;
 		FORMAT = E;
 		SCALE = 1;
@@ -1186,7 +1186,7 @@ VECTOR("C:/Users/Willian/Desktop/Github/ArquiteturaDeComputadores/FCTArc1/FCTArc
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "address_0";
+		SIGNAL = "trigger_ic";
 		INDEX = 11;
 		FORMAT = E;
 		SCALE = 1;

@@ -1080,14 +1080,14 @@ VECTOR("E:/Sistema/Desktop/Github/ArquiteturaDeComputadores/FCTArc1/db/FCTArc1.s
 	}
 }
 
-VECTOR("C:/Users/Willian/Desktop/Github/ArquiteturaDeComputadores/FCTArc1/FCTArc1.vwf")
+VECTOR("C:/Users/Willian/Desktop/Github/ArquiteturaDeComputadores/FCTArc1/db/FCTArc1.sim.cvwf")
 {
 	ZOOM{
 		ZBEGIN = 0;
-		ZEND = 508863;
-		NUMERATOR = 959;
-		DENOMINATOR = 500000;
-		TOP_INDEX = 1;
+		ZEND = 271841;
+		NUMERATOR = 921;
+		DENOMINATOR = 271841;
+		TOP_INDEX = 2;
 	}
 	CLOCK{
 		PERIOD = 10000;
@@ -1098,7 +1098,7 @@ VECTOR("C:/Users/Willian/Desktop/Github/ArquiteturaDeComputadores/FCTArc1/FCTArc
 		INTERVAL_TYPE = HALF_GRID;
 	}
 	LINE{
-		SIGNAL = "preset_mar";
+		SIGNAL = "reset";
 		INDEX = 0;
 		FORMAT = E;
 		SCALE = 1;
@@ -1106,7 +1106,7 @@ VECTOR("C:/Users/Willian/Desktop/Github/ArquiteturaDeComputadores/FCTArc1/FCTArc
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "preset_mdr";
+		SIGNAL = "clock";
 		INDEX = 1;
 		FORMAT = E;
 		SCALE = 1;
@@ -1114,7 +1114,7 @@ VECTOR("C:/Users/Willian/Desktop/Github/ArquiteturaDeComputadores/FCTArc1/FCTArc
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "preset_a";
+		SIGNAL = "out_1";
 		INDEX = 2;
 		FORMAT = E;
 		SCALE = 1;
@@ -1122,128 +1122,8 @@ VECTOR("C:/Users/Willian/Desktop/Github/ArquiteturaDeComputadores/FCTArc1/FCTArc
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "preset_b";
-		INDEX = 3;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "preset_acc";
-		INDEX = 4;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "clear_ic";
-		INDEX = 5;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "clear_mar";
-		INDEX = 6;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "clear_mdr";
-		INDEX = 7;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "clear_a";
-		INDEX = 8;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "clear_b";
-		INDEX = 9;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "clear_acc";
-		INDEX = 10;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "trigger_ic";
-		INDEX = 11;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "trigger_mar";
-		INDEX = 12;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "trigger_mdr";
-		INDEX = 13;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "trigger_a";
-		INDEX = 14;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "trigger_b";
-		INDEX = 15;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "trigger_acc";
-		INDEX = 16;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "out_1";
-		INDEX = 17;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
 		SIGNAL = "out_0";
-		INDEX = 18;
+		INDEX = 3;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
@@ -1251,17 +1131,17 @@ VECTOR("C:/Users/Willian/Desktop/Github/ArquiteturaDeComputadores/FCTArc1/FCTArc
 	}
 }
 
-VECTOR("C:/Users/Willian/Desktop/Github/ArquiteturaDeComputadores/FCTArc1/db/FCTArc1.sim.cvwf")
+VECTOR("C:/Users/Willian/Desktop/Github/ArquiteturaDeComputadores/FCTArc1/FCTArc1.vwf")
 {
 	ZOOM{
 		ZBEGIN = 0;
-		ZEND = 533648;
-		NUMERATOR = 847;
-		DENOMINATOR = 500000;
-		TOP_INDEX = 5;
+		ZEND = 70568;
+		NUMERATOR = 976;
+		DENOMINATOR = 70568;
+		TOP_INDEX = 0;
 	}
 	CLOCK{
-		PERIOD = 10000;
+		PERIOD = 20000;
 		OFFSET = 0;
 		DUTY_CYCLE = 50;
 	}
@@ -1269,7 +1149,7 @@ VECTOR("C:/Users/Willian/Desktop/Github/ArquiteturaDeComputadores/FCTArc1/db/FCT
 		INTERVAL_TYPE = HALF_GRID;
 	}
 	LINE{
-		SIGNAL = "preset_mar";
+		SIGNAL = "reset";
 		INDEX = 0;
 		FORMAT = E;
 		SCALE = 1;
@@ -1277,7 +1157,7 @@ VECTOR("C:/Users/Willian/Desktop/Github/ArquiteturaDeComputadores/FCTArc1/db/FCT
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "preset_mdr";
+		SIGNAL = "clock";
 		INDEX = 1;
 		FORMAT = E;
 		SCALE = 1;
@@ -1285,7 +1165,7 @@ VECTOR("C:/Users/Willian/Desktop/Github/ArquiteturaDeComputadores/FCTArc1/db/FCT
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "preset_a";
+		SIGNAL = "out_1";
 		INDEX = 2;
 		FORMAT = E;
 		SCALE = 1;
@@ -1293,128 +1173,8 @@ VECTOR("C:/Users/Willian/Desktop/Github/ArquiteturaDeComputadores/FCTArc1/db/FCT
 		FLAG = N;
 	}
 	LINE{
-		SIGNAL = "preset_b";
-		INDEX = 3;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "preset_acc";
-		INDEX = 4;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "clear_mar";
-		INDEX = 5;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "clear_mdr";
-		INDEX = 6;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "clear_a";
-		INDEX = 7;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "clear_b";
-		INDEX = 8;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "clear_acc";
-		INDEX = 9;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "trigger_mar";
-		INDEX = 10;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "trigger_mdr";
-		INDEX = 11;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "trigger_a";
-		INDEX = 12;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "trigger_b";
-		INDEX = 13;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "trigger_acc";
-		INDEX = 14;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "out_1";
-		INDEX = 15;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
 		SIGNAL = "out_0";
-		INDEX = 16;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "clear_ic";
-		INDEX = 17;
-		FORMAT = E;
-		SCALE = 1;
-		VISIBLE = Y;
-		FLAG = N;
-	}
-	LINE{
-		SIGNAL = "trigger_ic";
-		INDEX = 18;
+		INDEX = 3;
 		FORMAT = E;
 		SCALE = 1;
 		VISIBLE = Y;
